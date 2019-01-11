@@ -262,7 +262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 313390157, guid: f4cf01cab04054926935acc7cb25b7f5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.17
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 313390157, guid: f4cf01cab04054926935acc7cb25b7f5, type: 3}
       propertyPath: m_LocalRotation.x
@@ -302,7 +302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 313390157, guid: f4cf01cab04054926935acc7cb25b7f5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.79
       objectReference: {fileID: 0}
     - target: {fileID: 313390157, guid: f4cf01cab04054926935acc7cb25b7f5, type: 3}
       propertyPath: m_SizeDelta.x
@@ -612,7 +612,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30

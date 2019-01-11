@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcd495e-40f2-4921-9302-ab071806948b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Textures/Flame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Fire &amp; Explosion Effects/Textures/Flame.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LifeSaveVR_production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LifeSaveVR_production/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scripts/CameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scripts/CameraShake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scripts/ShakeCameraScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scripts/ShakeCameraScript.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,68 +35,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/CameraShake.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="351">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
-                <marker date="1547229961603" expanded="true" signature="6:99" ph="..." />
-                <marker date="1547229961603" expanded="true" signature="141:618" ph="{...}" />
-                <marker date="1547229961603" expanded="true" signature="194:328" ph="{...}" />
-                <marker date="1547229961603" expanded="true" signature="241:322" ph="{...}" />
-                <marker date="1547229961603" expanded="true" signature="360:616" ph="{...}" />
+                <marker date="1547230584189" expanded="true" signature="6:99" ph="..." />
+                <marker date="1547230584189" expanded="true" signature="141:660" ph="{...}" />
+                <marker date="1547230584189" expanded="true" signature="194:328" ph="{...}" />
+                <marker date="1547230584189" expanded="true" signature="241:322" ph="{...}" />
+                <marker date="1547230584189" expanded="true" signature="360:658" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/ShakeCameraScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="216">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding>
-                <marker date="1547229557369" expanded="true" signature="6:99" ph="..." />
-                <marker date="1547229557369" expanded="true" signature="147:250" ph="{...}" />
-                <marker date="1547229557369" expanded="true" signature="178:248" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/EZ Camera Shake/Scripts/CameraShaker.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-              <folding>
-                <marker date="1547216962654" expanded="false" signature="6:52" ph="..." />
-                <marker date="1547216962654" expanded="true" signature="77:7755" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="181:7753" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="196:348" ph="/// The single instance of the CameraShake in the current scene. Do not use if you have multiple instances. ... " />
-                <marker date="1547216962654" expanded="true" signature="506:624" ph="/// The default position influcence of all shakes created by this shaker. ... " />
-                <marker date="1547216962654" expanded="true" signature="712:830" ph="/// The default rotation influcence of all shakes created by this shaker. ... " />
-                <marker date="1547216962654" expanded="true" signature="1053:1155" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="1178:2145" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="1334:2029" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="1582:1697" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="1767:2015" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="2155:2371" ph="/// Gets the CameraShaker with the given name, if it exists. ... " />
-                <marker date="1547216962654" expanded="true" signature="2431:2655" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="2665:2914" ph="/// Starts a shake using the given preset. ... " />
-                <marker date="1547216962654" expanded="true" signature="2982:3073" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="3083:3681" ph="/// Shake the camera once, fading in and out  over a specified durations. ... " />
-                <marker date="1547216962654" expanded="true" signature="3797:4119" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="4129:4902" ph="/// Shake the camera once, fading in and out over a specified durations. ... " />
-                <marker date="1547216962654" expanded="true" signature="5062:5370" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="5380:5844" ph="/// Start shaking the camera. ... " />
-                <marker date="1547216962654" expanded="true" signature="5942:6281" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="6291:6931" ph="/// Start shaking the camera. ... " />
-                <marker date="1547216962654" expanded="true" signature="7073:7398" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="7408:7515" ph="/// Gets a copy of the list of current camera shake instances. ... " />
-                <marker date="1547216962654" expanded="true" signature="7571:7651" ph="{...}" />
-                <marker date="1547216962654" expanded="true" signature="7677:7747" ph="{...}" />
+                <marker date="1547232131872" expanded="true" signature="6:99" ph="..." />
+                <marker date="1547232131872" expanded="true" signature="147:250" ph="{...}" />
+                <marker date="1547232131872" expanded="true" signature="178:248" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -176,8 +138,8 @@
         <option value="$PROJECT_DIR$/Assets/EZ Camera Shake/Demo/Sample Scripts/ShakeByDistance.cs" />
         <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/EZ Camera Shake/Scripts/CameraShaker.cs" />
-        <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/ShakeCameraScript.cs" />
         <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/CameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/ShakeCameraScript.cs" />
       </list>
     </option>
   </component>
@@ -252,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547190725513</updated>
-      <workItem from="1547190734390" duration="15147000" />
+      <workItem from="1547190734390" duration="17898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15147000" />
+    <option name="totallyTimeSpent" value="17898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,6 +355,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/CameraShake.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <marker date="1547230584189" expanded="true" signature="6:99" ph="..." />
+            <marker date="1547230584189" expanded="true" signature="141:660" ph="{...}" />
+            <marker date="1547230584189" expanded="true" signature="194:328" ph="{...}" />
+            <marker date="1547230584189" expanded="true" signature="241:322" ph="{...}" />
+            <marker date="1547230584189" expanded="true" signature="360:658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/EZ Camera Shake/Scripts/CameraShaker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -430,26 +407,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/ShakeCameraScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="216">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
-            <marker date="1547229557369" expanded="true" signature="6:99" ph="..." />
-            <marker date="1547229557369" expanded="true" signature="147:250" ph="{...}" />
-            <marker date="1547229557369" expanded="true" signature="178:248" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/CameraShake.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <marker date="1547229961603" expanded="true" signature="6:99" ph="..." />
-            <marker date="1547229961603" expanded="true" signature="141:618" ph="{...}" />
-            <marker date="1547229961603" expanded="true" signature="194:328" ph="{...}" />
-            <marker date="1547229961603" expanded="true" signature="241:322" ph="{...}" />
-            <marker date="1547229961603" expanded="true" signature="360:616" ph="{...}" />
+            <marker date="1547232131872" expanded="true" signature="6:99" ph="..." />
+            <marker date="1547232131872" expanded="true" signature="147:250" ph="{...}" />
+            <marker date="1547232131872" expanded="true" signature="178:248" ph="{...}" />
           </folding>
         </state>
       </provider>

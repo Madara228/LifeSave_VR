@@ -10,7 +10,7 @@ public class CameraShake : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
             CameraShaking();
             Debug.Log("shake");
@@ -18,7 +18,8 @@ public class CameraShake : MonoBehaviour
     }
     public void CameraShaking()
     {
-        var my_cam = Instantiate(_camera, transform.position, Quaternion.identity);
+        var my_cam = Instantiate(_camera, transform.position, transform.rotation);
+        my_cam.transform.parent=transform;
         ShakeCameraScript _shakeCameraScript = my_cam.GetComponent<ShakeCameraScript>();
         _shakeCameraScript.ShakeMyCam();
         Destroy(my_cam,1.1f);
