@@ -235,6 +235,7 @@
         <e p="MyAssets" t="Include">
           <e p="Scripts" t="Include">
             <e p="DraggerScirpt.cs" t="Include" />
+            <e p="GameController.cs" t="Include" />
             <e p="MenuScene" t="Include">
               <e p="MenuHand.cs" t="Include" />
             </e>

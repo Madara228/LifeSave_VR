@@ -22,12 +22,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-//        if (Input.GetButton("Fire1"))
-        if(_camera.eulerAngles.x>30f && _camera.eulerAngles.x<90f)
+        if (Input.GetButton("Fire1"))
+      //  if(_camera.eulerAngles.x>30f && _camera.eulerAngles.x<90f)
         {
             Vector3 moveForward = _camera.TransformDirection(Vector3.forward);
             transform.position += moveForward*Time.deltaTime * speed*Time.deltaTime;
-            Debug.Log(transform.position);
+         //   Debug.Log(transform.position);
         }
     }
 }

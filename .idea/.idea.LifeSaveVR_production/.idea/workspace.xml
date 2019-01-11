@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcd495e-40f2-4921-9302-ab071806948b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LifeSaveVR_production/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LifeSaveVR_production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LifeSaveVR_production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleVR/Prefabs/Keyboard/GvrKeyboardCanvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,22 +18,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="510">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding>
-                <marker date="1547195343069" expanded="false" signature="6:78" ph="..." />
-                <marker date="1547195343069" expanded="true" signature="123:751" ph="{...}" />
-                <marker date="1547195343069" expanded="true" signature="216:331" ph="{...}" />
-                <marker date="1547195343069" expanded="true" signature="350:371" ph="{...}" />
-                <marker date="1547195343069" expanded="true" signature="403:749" ph="{...}" />
-                <marker date="1547195343069" expanded="true" signature="516:743" ph="{...}" />
-                <marker date="1547195343069" expanded="true" signature="526:732" ph="..." />
+                <marker date="1547202252666" expanded="false" signature="6:78" ph="..." />
+                <marker date="1547202252666" expanded="true" signature="123:753" ph="{...}" />
+                <marker date="1547202252666" expanded="true" signature="216:331" ph="{...}" />
+                <marker date="1547202252666" expanded="true" signature="350:371" ph="{...}" />
+                <marker date="1547202252666" expanded="true" signature="403:751" ph="{...}" />
+                <marker date="1547202252666" expanded="true" signature="516:745" ph="{...}" />
+                <marker date="1547202252666" expanded="true" signature="526:734" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/GameController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <marker date="1547202890911" expanded="false" signature="6:78" ph="..." />
+                <marker date="1547202890911" expanded="true" signature="180:556" ph="{...}" />
+                <marker date="1547202890911" expanded="true" signature="252:332" ph="{...}" />
+                <marker date="1547202890911" expanded="true" signature="359:554" ph="{...}" />
+                <marker date="1547202890911" expanded="true" signature="456:548" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/MenuScene/MenuHand.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
@@ -73,6 +89,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/DraggerScirpt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/MenuScene/MenuHand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -80,8 +97,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/DraggerScirpt.cs" />
-        <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/MenuScene/MenuHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyAssets/Scripts/GameController.cs" />
       </list>
     </option>
   </component>
@@ -156,12 +174,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547190725513</updated>
-      <workItem from="1547190734390" duration="6360000" />
+      <workItem from="1547190734390" duration="8768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6360000" />
+    <option name="totallyTimeSpent" value="8768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,22 +260,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <marker date="1547195343069" expanded="false" signature="6:78" ph="..." />
-            <marker date="1547195343069" expanded="true" signature="123:751" ph="{...}" />
-            <marker date="1547195343069" expanded="true" signature="216:331" ph="{...}" />
-            <marker date="1547195343069" expanded="true" signature="350:371" ph="{...}" />
-            <marker date="1547195343069" expanded="true" signature="403:749" ph="{...}" />
-            <marker date="1547195343069" expanded="true" signature="516:743" ph="{...}" />
-            <marker date="1547195343069" expanded="true" signature="526:732" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/MenuScene/MenuHand.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -267,6 +269,36 @@
             <marker date="1547196453471" expanded="true" signature="152:333" ph="{...}" />
             <marker date="1547196453471" expanded="true" signature="189:248" ph="{...}" />
             <marker date="1547196453471" expanded="true" signature="291:331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <marker date="1547202252666" expanded="false" signature="6:78" ph="..." />
+            <marker date="1547202252666" expanded="true" signature="123:753" ph="{...}" />
+            <marker date="1547202252666" expanded="true" signature="216:331" ph="{...}" />
+            <marker date="1547202252666" expanded="true" signature="350:371" ph="{...}" />
+            <marker date="1547202252666" expanded="true" signature="403:751" ph="{...}" />
+            <marker date="1547202252666" expanded="true" signature="516:745" ph="{...}" />
+            <marker date="1547202252666" expanded="true" signature="526:734" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MyAssets/Scripts/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <marker date="1547202890911" expanded="false" signature="6:78" ph="..." />
+            <marker date="1547202890911" expanded="true" signature="180:556" ph="{...}" />
+            <marker date="1547202890911" expanded="true" signature="252:332" ph="{...}" />
+            <marker date="1547202890911" expanded="true" signature="359:554" ph="{...}" />
+            <marker date="1547202890911" expanded="true" signature="456:548" ph="{...}" />
           </folding>
         </state>
       </provider>
