@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -28,6 +29,13 @@ public class PlayerMovement : MonoBehaviour
             Vector3 moveForward = _camera.TransformDirection(Vector3.forward);
             transform.position += moveForward*Time.deltaTime * speed*Time.deltaTime;
          //   Debug.Log(transform.position);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Flame")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

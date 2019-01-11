@@ -16,7 +16,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(seconds);
+      // Debug.Log(seconds);
         seconds -= Time.deltaTime;
         timer_txt.text = Mathf.RoundToInt(seconds).ToString();
         if (seconds <= 0)
@@ -24,4 +24,6 @@ public class GameController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+
+    
 }
