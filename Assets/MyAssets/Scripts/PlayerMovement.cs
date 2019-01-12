@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private int score = 0;
     public GameObject block;
+    private AudioSource[] audioSources;
     void Start()
     {
         _camera = GetComponentInChildren<Camera>().transform;
@@ -35,7 +36,13 @@ public class PlayerMovement : MonoBehaviour
             isDead = true;
             // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        else if (other.gameObject.tag == "Escape")
+        {
+            audioSources[0].Stop();
+            audioSources[1].Play();
+        }
     }
+    
 
     public void PlatokTrigger()
     {
