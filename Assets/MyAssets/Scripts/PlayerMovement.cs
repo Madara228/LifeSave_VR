@@ -16,12 +16,6 @@ public class PlayerMovement : MonoBehaviour
     {
         _camera = GetComponentInChildren<Camera>().transform;
         rb = GetComponent<Rigidbody>();
-
-    }
-
-    void Update()
-    {
-        
     }
 
     private void FixedUpdate()
@@ -50,4 +44,6 @@ public class PlayerMovement : MonoBehaviour
         block.SetActive(true);
         Destroy(platok);
     }
+
+    
 }

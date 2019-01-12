@@ -12,20 +12,20 @@ public class CameraShake : MonoBehaviour
     void Start()
     {
         _playerMovement = GetComponentInParent<PlayerMovement>();
-        
+        StartCoroutine(Drag());
+
     }
     
     void Update()
     {
         if (_playerMovement.isDead)
         {
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("LoseScene");
         }
-        if (Input.GetButtonDown("Jump"))
-        {
-            CameraShaking();
-            Debug.Log("shake");
-        }
+//        if (Input.GetButtonDown("Jump"))
+//        {
+//            Debug.Log("shake");
+//        }
         
     }
     public void CameraShaking()
@@ -35,5 +35,14 @@ public class CameraShake : MonoBehaviour
         ShakeCameraScript _shakeCameraScript = my_cam.GetComponent<ShakeCameraScript>();
         _shakeCameraScript.ShakeMyCam();
         Destroy(my_cam,1.1f);
+    }
+    private IEnumerator Drag()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(5f);
+            CameraShaking();                    
+        }
+
     }
 }
