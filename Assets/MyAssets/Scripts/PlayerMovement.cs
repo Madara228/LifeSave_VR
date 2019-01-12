@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,9 +11,11 @@ public class PlayerMovement : MonoBehaviour
     Transform _camera;
     [SerializeField]public bool isDead = false;
     private Rigidbody rb;
-    private int score = 0;
+    private int score = 2;
     public GameObject block;
-    private AudioSource[] audioSources;
+    public AudioSource[] audioSources;
+    public GameObject winText;
+    public GameObject texter;
     void Start()
     {
         _camera = GetComponentInChildren<Camera>().transform;
@@ -38,8 +41,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (other.gameObject.tag == "Escape")
         {
-            audioSources[0].Stop();
-            audioSources[1].Play();
+           win();
         }
     }
     
@@ -50,6 +52,31 @@ public class PlayerMovement : MonoBehaviour
         GameObject platok = GameObject.Find("Platok");
         block.SetActive(true);
         Destroy(platok);
+    }
+
+    public void UsingPhone()
+    {
+        score += 1;
+    }
+
+    public void win()
+    {
+        audioSources[0].Stop();
+        audioSources[1].Play();
+        Text txt = winText.GetComponent<Text>();
+        txt.text = "Ваш результат " + score.ToString();
+        winText.SetActive(true);
+        texter.SetActive(true);
+    }
+
+    private bool used = false;
+    public void EnergeOff()
+    {
+        if (used = false)
+        {
+            score += 1;
+            used = true;
+        }
     }
 
     

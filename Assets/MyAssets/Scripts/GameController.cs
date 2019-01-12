@@ -25,17 +25,5 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public void windows()
-    {
-        Camera camera = Camera.main;
-        RaycastHit hit;
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit))
-        {
-            Destroy(hit.transform.gameObject);
-            // Do something with the object that was hit by the raycast.
-        }
-    }
-
     
 }
